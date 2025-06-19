@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=375, initial-scale=1.0" />
+    <title>Simple Swiper Section</title>
+    <link rel="stylesheet" href="swiper-section.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="swiper-section">
+      <div class="swiper-section__images swiper">
+        <div class="swiper-wrapper">
+          <img
+            src="assets/image-1.jpg"
+            alt="Slide 1"
+            class="swiper-section__image swiper-slide"
+          />
+          <img
+            src="assets/image-2.jpg"
+            alt="Slide 2"
+            class="swiper-section__image swiper-slide"
+          />
+          <img
+            src="assets/image-3.jpg"
+            alt="Slide 3"
+            class="swiper-section__image swiper-slide"
+          />
+          <img
+            src="assets/image-4.jpg"
+            alt="Slide 4"
+            class="swiper-section__image swiper-slide"
+          />
+        </div>
+        <button
+          class="swiper-section__nav swiper-section__nav--left"
+          aria-label="Previous slide"
+        >
+          <span class="swiper-section__nav-icon">
+            <img
+              class="swiper-section__nav-arrow"
+              src="assets/arrow.svg"
+              alt="Arrow"
+            />
+          </span>
+        </button>
+        <button
+          class="swiper-section__nav swiper-section__nav--right"
+          aria-label="Next slide"
+        >
+          <span class="swiper-section__nav-icon">
+            <img
+              class="swiper-section__nav-arrow"
+              src="assets/arrow.svg"
+              alt="Arrow"
+            />
+          </span>
+        </button>
+      </div>
+      <button class="swiper-section__toggle">Toggle Swiper</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="swiper-section.js"></script>
+  </body>
+</html>
